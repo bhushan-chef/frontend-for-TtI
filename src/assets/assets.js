@@ -25,6 +25,7 @@ import logo4 from './logo4.png'
 import bhushan from './bhushan.jpg'
 import Swagat from './Swagat.jpg'
 import Cat from './Cat.png'
+import Search from './Search.png'
 
 export const assets = {
     logo,
@@ -49,6 +50,7 @@ export const assets = {
     bhushan,
     Swagat,
     Cat,
+    Search,
   }
 
 export const stepsData = [

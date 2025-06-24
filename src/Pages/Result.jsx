@@ -5,32 +5,30 @@ import { motion } from "motion/react";
 import { AppContext } from "../context/AppContext";
 
 const Result = () => {
-
-  const [image, setImage] = useState(assets.sample_img_1);
+  const [image, setImage] = useState(assets.Search);
   const [isimageLoaded, setIsImageLoaded] = useState(false);
   const [loading, setLoading] = useState(false);
   const [input, setInput] = useState("");
-  const {generateImage} = useContext(AppContext);
+  const { generateImage } = useContext(AppContext);
 
   const onSubmitHandler = async (e) => {
     e.preventDefault();
     setLoading(true);
-    if(input){
-      const image= await generateImage(input);
-      if(image){
+    if (input) {
+      const image = await generateImage(input);
+      if (image) {
         setIsImageLoaded(true);
         setImage(image);
       }
     }
     setLoading(false);
-  }
+  };
 
   return (
     <motion.form
       onSubmit={onSubmitHandler}
       action=""
       className="flex flex-col min-h-[90vh] justify-center items-center "
-      
       initial={{ opacity: 0.2, y: 100 }}
       transition={{ duration: 1 }}
       whileInView={{ opacity: 1, y: 0 }}
