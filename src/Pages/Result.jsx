@@ -36,7 +36,7 @@ const Result = () => {
     >
       <div>
         <div className="relative">
-          <img src={image} alt="" className="max-w-sm rounded" />
+          <img src={image} alt="" className="max-w-sm rounded-lg" />
 
           <span
             className={`absolute l-0 b-0 h-1 bg-blue-500 ${
