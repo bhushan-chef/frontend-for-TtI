@@ -77,21 +77,21 @@ export const testimonialsData = [
         name:'Vedant Pande',
         role:'Graphic Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:"I used this Web Application to genarate images for my Instagram posts, and it has been a game-changer. The AI-generated images are not only high-quality but also unique, which has helped me stand out in a crowded space. The process is quick and easy, making it perfect for busy professionals like me."
     },
     {
         image:logo3,
         name:'Chudaman Khandait',
         role:' Graphic Designer',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`I've been using ImageX for nearly two weeks, primarily for Social media posts, and it has been incredibly user-friendly, making my work much easier , special thanks to the developers.`
     },
     {
         image:logo4,
         name:'Aman Birla',
         role:' Business Owner',
         stars:5,
-        text:`I've been using bg.removal for nearly two years, primarily for Instagram, and it has been incredibly user-friendly, making my work much easier.`
+        text:`I have a business on Jupiter named Aman Group of Companies, which is very famous for its illegal and underground works on Earth and Jupiter. I used this Web Application to generate images for my business promotions to gather more employees and customers that will help me for a long run.`
     },
 ]
 
